@@ -1,0 +1,66 @@
+*
+{
+    margin: 0;
+    padding: 0;
+   box-sizing: border-box;
+   font-family:  'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+}
+
+body
+{ 
+    background-color: #f4f4f9;
+    color: #333;
+    padding: 40px 30px;
+
+
+
+}
+h1
+{
+    text-align: center;
+    color: #2c3e50;
+    margin-bottom: 40px;    
+
+}
+.card
+{
+    background-color: #fff;
+    border-radius: 12px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+    padding: 25px;
+    width: 100%;
+    max-width: 320px;
+    text-align: center;
+    border: 1px solid #e0e0e0;
+
+
+}
+.nome-produto
+{
+    font-size: 1.6rem;
+    color:#2980b9;
+    margin-bottom: 8px;
+
+}
+.categoria
+{
+    font-size: 1rem;
+    color: #7f8c7d;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-bottom: 20px;
+}
+.preco
+{
+    font-size: 2rem;
+    font-weight: bold;
+    color: #27ae60;
+    background-color: #eafaf1;
+    padding: 15px 10px;
+    border-radius: 8px;
+    margin-bottom: 15px;
+}
+
+
+
