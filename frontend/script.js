@@ -1,6 +1,6 @@
 async function carregarDados(){
 
-    const url = 'https://fantastic-waddle-gx794q49x946394vg-3000.app.github.dev/';
+    const url = 'https://reimagined-spoon-xrv65w56r7p626rx-3000.app.github.dev/';
 
     try{
         const resposta = await fetch(url);
