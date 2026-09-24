@@ -14,7 +14,7 @@ app.get('/', (req, res) => {
             marca: 'Semsunga',
             preco: 67000.00,
             categoria: 'Eletrônicos',
-            Estoque: true
+            estoque: true
         };
 
     res.json(produtos);

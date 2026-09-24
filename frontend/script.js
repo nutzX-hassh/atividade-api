@@ -14,7 +14,7 @@ async function carregarDados(){
         <h2 class="nome-produto">${produto.nome}</h2>
         <p class="categoria">Marca: ${produto.marca}</p>
         <p class="preco">R$ ${produto.preco.toFixed(2)}</p>
-        <p><strong>Estoque:</strong> ${produto.emEstoque ? 'Disponível' : 'insdisponível'}</p>
+        <p><strong>estoque:</strong> ${produto.emestoque ? 'Disponível' : 'insdisponível'}</p>
       </div>
     `;
 
