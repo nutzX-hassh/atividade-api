@@ -6,7 +6,7 @@ async function carregarDados() {
         const produtos = await resposta.json();
 
         const areaProdutos = document.getElementById('lista-produtos');
-        areaProdutos.innerHTML = '';
+        areaProdutos.innerHTML = ''; 
 
         produtos.forEach(produto => {
             areaProdutos.innerHTML += `
