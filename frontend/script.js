@@ -1,12 +1,12 @@
 async function carregarDados() {
-    const url = 'http://localhost:3000/';
+    const url = 'https://reimagined-spoon-xrv65w56r7p626rx-3000.app.github.dev/';
 
     try {
         const resposta = await fetch(url);
         const produtos = await resposta.json();
 
         const areaProdutos = document.getElementById('lista-produtos');
-        areaProdutos.innerHTML = ''; // Limpa a área antes de colocar os produtos
+        areaProdutos.innerHTML = '';
 
         produtos.forEach(produto => {
             areaProdutos.innerHTML += `
