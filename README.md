@@ -2,7 +2,7 @@ LOJA DE PRODUTOS DE INFORMÁTICA
 
 - apresenta em backend e frontend produtos com diversas informações
 
--linguagens utilizadas:
+-ferramentas utilizadas:
 - HTML
 - CSS
 - JavaScript
